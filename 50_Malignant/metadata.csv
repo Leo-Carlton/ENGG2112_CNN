@@ -1,0 +1,51 @@
+isic_id,attribution,copyright_license,anatom_site_general,anatom_site_special,diagnosis_1,diagnosis_2,diagnosis_3,diagnosis_4,diagnosis_confirm_type,image_type,melanocytic,patient_id
+ISIC_0628461,Imperial College London,CC-BY,,,Malignant,Malignant adnexal epithelial proliferations - Follicular,Basal cell carcinoma,,histopathology,dermoscopic,False,IP_7106953
+ISIC_0887416,Imperial College London,CC-BY,,,Malignant,Malignant adnexal epithelial proliferations - Follicular,Basal cell carcinoma,,histopathology,dermoscopic,False,IP_1923865
+ISIC_1658397,Imperial College London,CC-BY,,,Malignant,Malignant melanocytic proliferations (Melanoma),"Melanoma, NOS",,histopathology,dermoscopic,True,IP_5065585
+ISIC_2088656,Imperial College London,CC-BY,,,Malignant,Malignant epidermal proliferations,"Squamous cell carcinoma, NOS",,histopathology,dermoscopic,False,IP_4521717
+ISIC_2189201,Imperial College London,CC-BY,,,Malignant,Malignant adnexal epithelial proliferations - Follicular,Basal cell carcinoma,,histopathology,dermoscopic,False,IP_4244710
+ISIC_2290741,Imperial College London,CC-BY,,,Malignant,Malignant melanocytic proliferations (Melanoma),Melanoma in situ,"Melanoma in situ, Lentigo maligna type",histopathology,dermoscopic,True,IP_7031883
+ISIC_2327788,Imperial College London,CC-BY,,,Malignant,Malignant adnexal epithelial proliferations - Follicular,Basal cell carcinoma,,histopathology,dermoscopic,False,IP_2721607
+ISIC_2352444,Imperial College London,CC-BY,,,Malignant,Malignant epidermal proliferations,"Squamous cell carcinoma, NOS",,histopathology,dermoscopic,False,IP_2629981
+ISIC_2559064,Imperial College London,CC-BY,,,Malignant,Malignant epidermal proliferations,"Squamous cell carcinoma, NOS",,histopathology,dermoscopic,False,IP_0225314
+ISIC_2667302,Imperial College London,CC-BY,,,Malignant,Malignant adnexal epithelial proliferations - Follicular,Basal cell carcinoma,,histopathology,dermoscopic,False,IP_9221459
+ISIC_3047459,Imperial College London,CC-BY,,,Malignant,Malignant epidermal proliferations,"Squamous cell carcinoma, NOS",,histopathology,dermoscopic,False,IP_5306867
+ISIC_3201541,Imperial College London,CC-BY,,,Malignant,Malignant epidermal proliferations,Squamous cell carcinoma in situ,"Squamous cell carcinoma in situ, Bowens disease",histopathology,dermoscopic,False,IP_6291087
+ISIC_3352464,Imperial College London,CC-BY,,,Malignant,Malignant melanocytic proliferations (Melanoma),Melanoma in situ,"Melanoma in situ, Lentigo maligna type",histopathology,dermoscopic,True,IP_8599754
+ISIC_3738966,Imperial College London,CC-BY,,,Malignant,Malignant epidermal proliferations,"Squamous cell carcinoma, NOS",,histopathology,dermoscopic,False,IP_6905173
+ISIC_3920557,Imperial College London,CC-BY,,,Malignant,Malignant epidermal proliferations,"Squamous cell carcinoma, NOS",,histopathology,dermoscopic,False,IP_5642096
+ISIC_3951556,Imperial College London,CC-BY,,,Malignant,Malignant adnexal epithelial proliferations - Follicular,Basal cell carcinoma,,histopathology,dermoscopic,False,IP_5463137
+ISIC_4689798,Imperial College London,CC-BY,,,Malignant,Malignant soft tissue proliferations - Vascular,Kaposi sarcoma,,histopathology,dermoscopic,False,IP_3977202
+ISIC_4868339,Imperial College London,CC-BY,palms/soles,acral NOS,Malignant,Malignant melanocytic proliferations (Melanoma),"Melanoma, NOS",,histopathology,dermoscopic,True,IP_3704432
+ISIC_5403110,Imperial College London,CC-BY,,,Malignant,,,,histopathology,dermoscopic,False,IP_6351109
+ISIC_5431835,Imperial College London,CC-BY,,,Malignant,Malignant adnexal epithelial proliferations - Follicular,Basal cell carcinoma,,histopathology,dermoscopic,False,IP_9796118
+ISIC_5653455,Imperial College London,CC-BY,,,Malignant,Malignant adnexal epithelial proliferations - Follicular,Basal cell carcinoma,,histopathology,dermoscopic,False,IP_4616548
+ISIC_5687082,Imperial College London,CC-BY,,,Malignant,Malignant melanocytic proliferations (Melanoma),"Melanoma, NOS",,histopathology,dermoscopic,True,IP_8469932
+ISIC_5709512,Imperial College London,CC-BY,,,Malignant,Malignant melanocytic proliferations (Melanoma),"Melanoma, NOS",,histopathology,dermoscopic,True,IP_8172608
+ISIC_5783426,Imperial College London,CC-BY,,,Malignant,Malignant adnexal epithelial proliferations - Follicular,Basal cell carcinoma,,histopathology,dermoscopic,False,IP_7245950
+ISIC_6133338,Imperial College London,CC-BY,,,Malignant,Malignant melanocytic proliferations (Melanoma),Melanoma in situ,"Melanoma in situ, Lentigo maligna type",histopathology,dermoscopic,True,IP_7335425
+ISIC_6160027,Imperial College London,CC-BY,,,Malignant,Malignant adnexal epithelial proliferations - Follicular,Basal cell carcinoma,,histopathology,dermoscopic,False,IP_7142068
+ISIC_6207450,Imperial College London,CC-BY,,,Malignant,Malignant adnexal epithelial proliferations - Follicular,Basal cell carcinoma,,histopathology,dermoscopic,False,IP_2738701
+ISIC_6262553,Imperial College London,CC-BY,,,Malignant,Malignant epidermal proliferations,"Squamous cell carcinoma, NOS",,histopathology,dermoscopic,False,IP_0572760
+ISIC_6488489,Imperial College London,CC-BY,palms/soles,acral NOS,Malignant,Malignant melanocytic proliferations (Melanoma),"Melanoma, NOS",,histopathology,dermoscopic,True,IP_8539848
+ISIC_6574817,Imperial College London,CC-BY,,,Malignant,Malignant adnexal epithelial proliferations - Follicular,Basal cell carcinoma,,histopathology,dermoscopic,False,IP_9258975
+ISIC_6708523,Imperial College London,CC-BY,,,Malignant,Malignant epidermal proliferations,"Squamous cell carcinoma, NOS",,histopathology,dermoscopic,False,IP_8624870
+ISIC_7000719,Imperial College London,CC-BY,,,Malignant,Malignant melanocytic proliferations (Melanoma),"Melanoma, NOS",,histopathology,dermoscopic,True,IP_2940793
+ISIC_7084754,Imperial College London,CC-BY,palms/soles,acral NOS,Malignant,Malignant melanocytic proliferations (Melanoma),Melanoma Invasive,"Melanoma Invasive, Nodular",histopathology,dermoscopic,True,IP_0517260
+ISIC_7513346,Imperial College London,CC-BY,,,Malignant,Malignant epidermal proliferations,Squamous cell carcinoma in situ,"Squamous cell carcinoma in situ, Bowens disease",histopathology,dermoscopic,False,IP_6291087
+ISIC_7564517,Imperial College London,CC-BY,palms/soles,acral NOS,Malignant,Malignant melanocytic proliferations (Melanoma),Melanoma Invasive,"Melanoma Invasive, Nodular",histopathology,dermoscopic,True,IP_3704432
+ISIC_7705010,Imperial College London,CC-BY,,,Malignant,Malignant adnexal epithelial proliferations - Follicular,Basal cell carcinoma,,histopathology,dermoscopic,False,IP_5806205
+ISIC_7724517,Imperial College London,CC-BY,,,Malignant,Malignant epidermal proliferations,"Squamous cell carcinoma, NOS",,histopathology,dermoscopic,False,IP_3082477
+ISIC_7808341,Imperial College London,CC-BY,,,Malignant,Malignant melanocytic proliferations (Melanoma),"Melanoma, NOS",,histopathology,dermoscopic,True,IP_7061640
+ISIC_7899387,Imperial College London,CC-BY,,,Malignant,Malignant melanocytic proliferations (Melanoma),"Melanoma, NOS",,histopathology,dermoscopic,True,IP_9873903
+ISIC_7963944,Imperial College London,CC-BY,,,Malignant,Malignant adnexal epithelial proliferations - Follicular,Basal cell carcinoma,,histopathology,dermoscopic,False,IP_5369644
+ISIC_7983228,Imperial College London,CC-BY,,,Malignant,Malignant epidermal proliferations,"Squamous cell carcinoma, NOS",,histopathology,dermoscopic,False,IP_3094417
+ISIC_8642438,Imperial College London,CC-BY,,,Malignant,Malignant adnexal epithelial proliferations - Follicular,Basal cell carcinoma,,histopathology,dermoscopic,False,IP_1691560
+ISIC_8686515,Imperial College London,CC-BY,,,Malignant,,,,histopathology,dermoscopic,False,IP_6813775
+ISIC_8774720,Imperial College London,CC-BY,,,Malignant,Malignant adnexal epithelial proliferations - Follicular,Basal cell carcinoma,,histopathology,dermoscopic,False,IP_4787388
+ISIC_9020089,Imperial College London,CC-BY,,,Malignant,Malignant adnexal epithelial proliferations - Follicular,Basal cell carcinoma,,histopathology,dermoscopic,False,IP_7142068
+ISIC_9028374,Imperial College London,CC-BY,palms/soles,acral NOS,Malignant,Malignant melanocytic proliferations (Melanoma),"Melanoma, NOS",,histopathology,dermoscopic,True,IP_6362157
+ISIC_9036239,Imperial College London,CC-BY,,,Malignant,Malignant epidermal proliferations,"Squamous cell carcinoma, NOS",,histopathology,dermoscopic,False,IP_1164278
+ISIC_9112608,Imperial College London,CC-BY,,,Malignant,Malignant adnexal epithelial proliferations - Follicular,Basal cell carcinoma,,histopathology,dermoscopic,False,IP_1115432
+ISIC_9596928,Imperial College London,CC-BY,,,Malignant,Malignant epidermal proliferations,Squamous cell carcinoma in situ,"Squamous cell carcinoma in situ, Bowens disease",histopathology,dermoscopic,False,IP_1871604
+ISIC_9679163,Imperial College London,CC-BY,,,Malignant,Malignant adnexal epithelial proliferations - Follicular,Basal cell carcinoma,,histopathology,dermoscopic,False,IP_9453018
