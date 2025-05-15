@@ -138,11 +138,11 @@ def run_experiments():
     image_size = (512, 512)
     input_shape = (512, 512, 3)
 
-    epochs_list = [10, 30, 50, 75]
-    batch_sizes = [8, 16, 32, 64, 128]
-    conv_layers_list = [2, 3, 4]
-    fc_layers_list = [1, 2, 3, 4]
-    optimizers_list = ['adam', 'sgd']
+    epochs_list = [3, 6, 9, 12]
+    batch_sizes = [64, 128, 256]
+    conv_layers_list = [2, 3]
+    fc_layers_list = [1, 2]
+    optimizer = 'adam'
 
     for batch_size in batch_sizes:
         print(f"\n=== Loading dataset with batch size: {batch_size} ===")
@@ -151,29 +151,29 @@ def run_experiments():
         for epochs in epochs_list:
             for conv_layers in conv_layers_list:
                 for fc_layers in fc_layers_list:
-                    for opt in optimizers_list:
-                        print(f"\n=== Training model: Epochs={epochs}, Batch={batch_size}, Conv={conv_layers}, FC={fc_layers}, Optimizer={opt} ===")
-                        model = build_model(conv_layers, fc_layers, opt, input_shape)
+                    print(f"\n=== Training model: Epochs={epochs}, Batch={batch_size}, Conv={conv_layers}, FC={fc_layers}, Optimizer={optimizer} ===")
+                    model = build_model(conv_layers, fc_layers, optimizer, input_shape)
 
-                        history = model.fit(
-                            train_ds,
-                            validation_data=val_ds,
-                            epochs=epochs,
-                            verbose=0  # Set to 1 to see per-epoch logs
-                        )
+                    history = model.fit(
+                        train_ds,
+                        validation_data=val_ds,
+                        epochs=epochs,
+                        verbose=0  # Change to 1 for detailed training logs
+                    )
 
-                        title = f"(E{epochs}-B{batch_size}-C{conv_layers}-F{fc_layers}-{opt})"
-                        plot_metrics(history, title_suffix=title)
+                    title = f"(E{epochs}-B{batch_size}-C{conv_layers}-F{fc_layers}-{optimizer})"
+                    plot_metrics(history, title_suffix=title)
 
-                        params = {
-                            'epochs': epochs,
-                            'batch_size': batch_size,
-                            'conv_layers': conv_layers,
-                            'fc_layers': fc_layers,
-                            'optimizer': opt
-                        }
+                    params = {
+                        'epochs': epochs,
+                        'batch_size': batch_size,
+                        'conv_layers': conv_layers,
+                        'fc_layers': fc_layers,
+                        'optimizer': optimizer
+                    }
 
-                        evaluate_and_log(model, test_ds, params)
+                    evaluate_and_log(model, test_ds, params)
+
 
 # Execute Code
 run_experiments()
