@@ -4,7 +4,6 @@
 # Phase 1, initial choice
 * Obviously we will use a CNN for this as it is good for image processing, maintaining local connections
 * Resize images to 512x512 as this is a good mid point between image clarity (lost due to downsizing) and processing time (increased by larger dimensions)
-* binary cross-entropy loss function as this is a good overall loss function for binary outputs, which ours is
 * chose to rank with accuracy, precision, recall, and loss. Recall most important as we care about catching cases, but must be balanced with good precision and then accuracy
 
 # Phase 2, independent testing
