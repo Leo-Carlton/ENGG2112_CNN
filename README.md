@@ -17,12 +17,14 @@
 * epochs tested. Lower epochs, 5, 10, 15 show best results
 * convolutional layers tested. 3 and 5 show best results
 
-# Phase 3, dependent testing
+# Phase 3, scale up to 40k images
 * firstly a test was done with 40k images, to see if results change scaling from 6k to 40k images. Nothing was impacted too much, except epochs
 * clearly, as the number of images goes up, more epochs are needed. So a good halfway point of 30 epochs was chosen, this is where it has stabilised and produces confident outputs, before loss goes up too much
+
+# Phase 4, dependent testing
 * then, dependent testing was conducted. Every combination of batch size, fully connected layers, and convolutional layers was tested
 * batch size 256 showed best results across the board, and was selected
 * final selection was batch 256, conv layers 5, fully connected layers 1
 
-# Phase 4, building model
+# Phase 5, building model
 * with hyperparameters chosen, the final model was built, and showed good results
