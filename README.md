@@ -11,6 +11,7 @@
 * test a bunch of different variables independently to determine rough values that are good for further testing, weed out poor choices
 * all tested on 6k images, as good half way point between speed and large amount of images
 * base model done first, in cnn_binary_test_batch_fc
+* to choose base model, parameters we thought would do well were chosen, based on some limited research
 * different optimisers tested, "sgd" and "adam", sgd shows much worse recall so dumped
 * batch size tested. 64, 128, and 256 show best results, selected for further testing. Cant test 512 on current model as too large and overflows dimensions of tensor
 * fully connected layers tested. 1 and 2 show best results, selected for further testing
@@ -25,6 +26,7 @@
 * then, dependent testing was conducted. Every combination of batch size, fully connected layers, and convolutional layers was tested
 * batch size 256 showed best results across the board, and was selected
 * final selection was batch 256, conv layers 5, fully connected layers 1
+* all dependent testing utilised early stopping, as we didnt want it to take too much time to compile a large number of models, and we werent testing epochs
 
 # Phase 5, building model
 * with hyperparameters chosen, the final model was built, and showed good results
